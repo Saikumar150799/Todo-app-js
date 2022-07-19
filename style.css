@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background:linear-gradient(#c31432,#240b36);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .inputField {
+    margin: 1rem 0;
+    width: 50%;
+    
+}
+
+.container .inputField input {
+    height: 2rem;
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+
+}
+
+.container .inputField .addBtn {
+    height: 2rem;
+    padding: 0 1.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #27ae60;
+}
+
+.container .ultag {
+    width: 50%;
+    margin-bottom: 1rem;
+
+}
+
+.container .ultag li {
+    list-style-type: none;
+    width: 70%;
+    border-radius: 5px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    color: #f39c12;
+
+}
+
+.container .ultag .editable {
+    outline: none;
+    border: 1px solid black;
+    background-color: #c3c8cc;
+    color: black;
+}
+
+
+.container .ultag .allTodos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .ultag .allTodos button {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 3rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.container .ultag .allTodos .buttons .deleteButton{
+    background-color: #e74c3c;
+}
+
+.container .ultag .allTodos .buttons .editButton{
+    background-color: #3498db;
+
+}
